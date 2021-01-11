@@ -13,6 +13,7 @@ body {
 .d-flex{
     display: flex;
 }
+
 .container {
     width: 1070px;
     height: 100%;
@@ -24,9 +25,18 @@ header {
     height: 70px;
     background: rgb(46, 58, 70);
 }
+
 header img {
     height: 50px;
     margin-top: 10px;
+}
+
+header{
+    align-items: center;
+}
+
+select{
+    margin-right: 20px;
 }
 
 .cds-container {
